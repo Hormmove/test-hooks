@@ -10,7 +10,8 @@ const Todo = () => {
     }
     return (
         <div>
-            <TodoList sendMsg={ setvalue } />
+            <TodoList s
+            endMsg={ setvalue } />
             <div>
                 {
                     todos.map((ele, index) => {
